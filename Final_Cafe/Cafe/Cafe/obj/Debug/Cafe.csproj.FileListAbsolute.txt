@@ -1,0 +1,246 @@
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Cafe.dll.config
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Cafe.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Cafe.pdb
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\csc.exe
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\csc.exe.config
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\csc.rsp
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\csi.exe
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\csi.exe.config
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\csi.rsp
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.AppContext.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Console.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.IO.Compression.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Claims.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.ValueTuple.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\vbc.exe
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\vbc.exe.config
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\vbc.rsp
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\VBCSCompiler.exe
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Antlr3.Runtime.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Newtonsoft.Json.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Helpers.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Mvc.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Optimization.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Razor.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.WebPages.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Razor.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\WebGrease.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Helpers.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Mvc.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Razor.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.WebPages.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Razor.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\System.Web.Optimization.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Newtonsoft.Json.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Antlr3.Runtime.pdb
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\obj\Debug\Cafe.csproj.CopyComplete
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\obj\Debug\Cafe.dll
+C:\Users\ZeroSiuYiu\Desktop\Cafe\Cafe\obj\Debug\Cafe.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Cafe.dll.config
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Cafe.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Cafe.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\csc.exe
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\csc.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\csc.rsp
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\csi.exe
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\csi.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\csi.rsp
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.AppContext.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Console.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.IO.Compression.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.Claims.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.ValueTuple.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\vbc.exe
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\vbc.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\vbc.rsp
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\VBCSCompiler.exe
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Antlr3.Runtime.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Newtonsoft.Json.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Helpers.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Mvc.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Optimization.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Razor.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.WebPages.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.WebPages.Razor.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\WebGrease.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Helpers.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Mvc.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Razor.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.WebPages.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.WebPages.Razor.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\System.Web.Optimization.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Newtonsoft.Json.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Antlr3.Runtime.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\obj\Debug\Cafe.csproj.CopyComplete
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\obj\Debug\Cafe.dll
+C:\Users\ffhkerwo2\Desktop\Cafe - Copy\Cafe\obj\Debug\Cafe.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Cafe.dll.config
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Cafe.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Cafe.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\csc.exe
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\csc.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\csc.rsp
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\csi.exe
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\csi.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\csi.rsp
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.AppContext.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Console.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.IO.Compression.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Claims.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.ValueTuple.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\vbc.exe
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\vbc.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\vbc.rsp
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\VBCSCompiler.exe
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Antlr3.Runtime.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Newtonsoft.Json.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Helpers.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Mvc.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Optimization.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Razor.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.WebPages.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Razor.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\WebGrease.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Helpers.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Mvc.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Razor.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.WebPages.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.WebPages.Razor.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\System.Web.Optimization.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Newtonsoft.Json.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Antlr3.Runtime.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\obj\Debug\Cafe.csproj.CopyComplete
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\obj\Debug\Cafe.dll
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\obj\Debug\Cafe.pdb
+C:\Users\ffhkerwo2\Desktop\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache

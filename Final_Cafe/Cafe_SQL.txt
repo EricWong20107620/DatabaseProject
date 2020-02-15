@@ -1,0 +1,223 @@
+USE master;
+GO
+ALTER DATABASE Cafe SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+DROP DATABASE Cafe;
+CREATE DATABASE Cafe;
+USE Cafe;
+GO
+
+CREATE TABLE [Cafe].[dbo].[login_account] (
+	login_id VARCHAR (50) PRIMARY KEY,
+	login_password VARCHAR (50) NOT NULL,
+	user_role VARCHAR(50) NOT NULL,
+	user_status INT NOT NULL
+);
+
+INSERT INTO login_account VALUES ('ericw', 'wong0!29', 'S', 1)
+INSERT INTO login_account VALUES ('client', 'abc12345', 'C', 1)
+
+CREATE TABLE [Cafe].[dbo].[drinks] (
+	drink_id INT IDENTITY(1,1) PRIMARY KEY,
+	item_type VARCHAR (50) NOT NULL,
+	drink_name VARCHAR (50) NOT NULL,
+	picture_path VARCHAR (254),
+	category VARCHAR (50) NOT NULL,
+	temperature VARCHAR (50) NOT NULL,
+	price INT,
+	item_status INT NOT NULL
+);
+
+INSERT INTO drinks VALUES ('Drink', 'Classic Chocolate - Cold', '', 'Chocolate', 'Cold', 18, 1);
+INSERT INTO drinks VALUES ('Drink', 'Classic Chocolate - Hot', '', 'Chocolate', 'Hot', 16, 1);
+INSERT INTO drinks VALUES ('Drink', 'Strawberry Chocolate - Cold', '', 'Chocolate', 'Cold', 20, 1);
+INSERT INTO drinks VALUES ('Drink', 'Strawberry Chocolate - Hot', '', 'Chocolate', 'Hot', 18, 1);
+INSERT INTO drinks VALUES ('Drink', 'Mint Chocolate - Cold', '', 'Chocolate', 'Cold', 19, 1);
+INSERT INTO drinks VALUES ('Drink', 'Mint Chocolate - Hot', '', 'Chocolate', 'Hot', 17, 1);
+INSERT INTO drinks VALUES ('Drink', 'Americano - Cold', '', 'Coffee', 'Cold', 28, 1);
+INSERT INTO drinks VALUES ('Drink', 'Americano - Hot', '', 'Coffee', 'Hot', 26, 1);
+INSERT INTO drinks VALUES ('Drink', 'Mocha - Cold', '', 'Coffee', 'Cold', 30, 1);
+INSERT INTO drinks VALUES ('Drink', 'Mocha - Hot', '', 'Coffee', 'Hot', 28, 1);
+INSERT INTO drinks VALUES ('Drink', 'Latte - Cold', '', 'Coffee', 'Cold', 30, 1);
+INSERT INTO drinks VALUES ('Drink', 'Latte - Hot', '', 'Coffee', 'Hot', 28, 1);
+UPDATE drinks SET picture_path = 'images/Drinks/' + CONVERT(varchar(50), drink_id) + '.jpg'
+
+CREATE TABLE [Cafe].[dbo].[snacks] (
+	snack_id INT IDENTITY(1,1) PRIMARY KEY,
+	item_type VARCHAR (50) NOT NULL,
+	snack_name VARCHAR (50) NOT NULL,
+	picture_path VARCHAR (254),
+	category VARCHAR (50) NOT NULL,
+	price INT,
+	item_status INT NOT NULL
+);
+
+INSERT INTO snacks VALUES ('Snack', 'French Fries', '', 'Snack', 27, 1);
+UPDATE snacks SET picture_path = 'images/Snacks/' + CONVERT(varchar(50), snack_id) + '.jpg'
+
+CREATE TABLE [Cafe].[dbo].[orders_master] (
+	order_id INT IDENTITY(1,1) PRIMARY KEY,
+	login_id VARCHAR (50) NOT NULL,
+	ord_status VARCHAR (50) NOT NULL,
+	confirm_time datetime NOT NULL,
+	FOREIGN KEY (login_id) REFERENCES login_account (login_id)
+);
+
+CREATE TABLE [Cafe].[dbo].[orders_detail] (
+	order_id INT,
+	food_id INT NOT NULL,
+	item_type VARCHAR (50) NOT NULL,
+	quantity INT NOT NULL,
+	price INT NOT NULL,
+	FOREIGN KEY (order_id) REFERENCES orders_master (order_id)
+);
+
+CREATE TABLE [Cafe].[dbo].[orders_cart] (
+	login_id VARCHAR (50) NOT NULL,
+	food_id VARCHAR (50) NOT NULL,
+	item_type VARCHAR (50) NOT NULL,
+	quantity INT NOT NULL,
+	price INT NOT NULL
+);
+
+CREATE TABLE [Cafe].[dbo].[role_page] (
+	user_role VARCHAR (50) NOT NULL,
+	page_name VARCHAR (50) NOT NULL,
+	display_name VARCHAR (50) NOT NULL,
+	sort INT NOT NULL,
+	page_status INT NOT NULL
+);
+
+INSERT INTO role_page VALUES ('CS', 'Home', 'Home', 1, 1)
+INSERT INTO role_page VALUES ('CS', 'Login', 'Logout', 99, 1)
+INSERT INTO role_page VALUES ('C', 'Drinks', 'Drinks', 2, 1)
+INSERT INTO role_page VALUES ('C', 'Snacks', 'Snacks', 3, 1)
+INSERT INTO role_page VALUES ('C', 'Order_Cart', 'Order Cart', 4, 1)
+INSERT INTO role_page VALUES ('C', 'Confirmed_Order', 'Confirmed Order', 5, 1)
+INSERT INTO role_page VALUES ('S', 'Manage_Drinks', 'Manage Drinks', 2, 1)
+INSERT INTO role_page VALUES ('S', 'Manage_Snacks', 'Manage Snacks', 3, 1)
+INSERT INTO role_page VALUES ('S', 'Manage_Orders', 'Manage Orders', 4, 1)
+INSERT INTO role_page VALUES ('S', 'Manage_Users', 'Manage Users', 5, 1)
+
+GO
+
+CREATE VIEW sum_order_cart AS
+SELECT a.login_id, a.food_id, CASE WHEN b.drink_name IS NULL THEN c.snack_name ELSE b.drink_name END AS food_name, a.item_type, SUM(a.quantity) AS quantity, SUM(a.price) AS price FROM orders_cart a
+LEFT JOIN drinks b ON a.item_type = b.item_type AND a.food_id = b.drink_id
+LEFT JOIN snacks c ON a.item_type = c.item_type AND a.food_id = c.snack_id
+GROUP BY a.login_id, a.food_id, b.drink_name, c.snack_name, a.item_type, c.item_type
+
+GO
+
+CREATE VIEW sum_confirmed_order AS
+SELECT  
+a.order_id,
+a.login_id,
+CASE WHEN c.drink_name IS NULL THEN d.snack_name ELSE c.drink_name END AS food_name, 
+b.item_type,
+SUM(b.quantity) AS quantity,
+SUM(b.price) AS price
+FROM orders_master a
+INNER JOIN orders_detail b ON a.order_id = b.order_id
+LEFT JOIN drinks c ON b.item_type = c.item_type AND b.food_id = c.drink_id
+LEFT JOIN snacks d ON b.item_type = d.item_type AND b.food_id = d.snack_id
+WHERE a.ord_status = 'O'
+GROUP BY 
+a.order_id,
+a.login_id,
+CASE WHEN c.drink_name IS NULL THEN d.snack_name ELSE c.drink_name END, 
+b.item_type
+
+GO
+
+CREATE VIEW sum_orders_detail AS
+SELECT  
+a.order_id,
+a.ord_status,
+a.login_id,
+CASE WHEN c.drink_id IS NULL THEN d.snack_id ELSE c.drink_id END AS food_id, 
+CASE WHEN c.drink_name IS NULL THEN d.snack_name ELSE c.drink_name END AS food_name, 
+b.item_type,
+SUM(b.quantity) AS quantity,
+SUM(b.price) AS price
+FROM orders_master a
+INNER JOIN orders_detail b ON a.order_id = b.order_id
+LEFT JOIN drinks c ON b.item_type = c.item_type AND b.food_id = c.drink_id
+LEFT JOIN snacks d ON b.item_type = d.item_type AND b.food_id = d.snack_id
+GROUP BY 
+a.order_id,
+a.ord_status,
+a.login_id,
+CASE WHEN c.drink_id IS NULL THEN d.snack_id ELSE c.drink_id END, 
+CASE WHEN c.drink_name IS NULL THEN d.snack_name ELSE c.drink_name END, 
+b.item_type
+
+GO
+
+CREATE PROCEDURE sp_confirm_order @login_id nvarchar(30)
+AS
+BEGIN TRY
+    BEGIN TRANSACTION
+		IF ((SELECT COUNT(*) FROM orders_master WHERE login_id = @login_id AND ord_status = 'O') = 0)
+		BEGIN
+			INSERT INTO Orders_Master (login_id, ord_status, confirm_time) VALUES (@login_id, 'O', GETDATE());
+		END
+        INSERT INTO Orders_Detail (order_id, food_id, item_type, quantity, price) SELECT (SELECT MAX(order_id) FROM Orders_Master WHERE login_id = @login_id AND ord_status = 'O') AS order_id, food_id, item_type, quantity, price FROM sum_order_cart WHERE login_id = @login_id;
+        DELETE FROM Orders_Cart WHERE login_id = @login_id
+    COMMIT TRAN
+END TRY
+BEGIN CATCH
+    IF @@TRANCOUNT > 0
+        ROLLBACK TRAN
+	RAISERROR ('Fail',16,1)
+END CATCH
+
+GO
+
+CREATE PROCEDURE sp_login @login_id nvarchar(30), @password nvarchar(30)
+AS
+SELECT * FROM login_account WHERE user_status = 1 AND login_id = @login_id AND login_password = @password
+
+GO
+
+CREATE PROCEDURE sp_register @login_id nvarchar(30), @password nvarchar(30)
+AS
+INSERT INTO login_account VALUES (@login_id, @password, 'C', 1)
+
+GO
+
+CREATE PROCEDURE sp_update_drink @drink_name nvarchar(30), @path nvarchar(30), @category nvarchar(30), @temperature nvarchar(30), @price int, @status int, @drink_id int
+AS
+UPDATE drinks SET drink_name = @drink_name, picture_path = @path, category = @category, temperature = @temperature, price = @price, item_status = @status WHERE drink_id = @drink_id
+
+GO
+
+CREATE PROCEDURE sp_insert_drink @drink_name nvarchar(30), @path nvarchar(30), @category nvarchar(30), @temperature nvarchar(30), @price int, @status int
+AS
+INSERT INTO drinks VALUES ('Drink', @drink_name, @path, @category, @temperature, @price, @status)
+
+GO
+
+CREATE PROCEDURE sp_update_snack @snack_name nvarchar(30), @path nvarchar(30), @category nvarchar(30), @price int, @status int, @snack_id int
+AS
+UPDATE snacks SET snack_name = @snack_name, picture_path = @path, category = @category, price = @price, item_status = @status WHERE snack_id = @snack_id
+
+GO
+
+CREATE PROCEDURE sp_insert_snack @snack_name nvarchar(30), @path nvarchar(30), @category nvarchar(30), @price int, @status int
+AS
+INSERT INTO snacks VALUES ('Snack', @snack_name, @path, @category, @price, @status)
+
+GO
+
+CREATE PROCEDURE sp_update_user @login_password nvarchar(30), @user_role nvarchar(30), @user_status int, @login_id nvarchar(30)
+AS
+UPDATE login_account SET login_password = @login_password, user_role = @user_role, user_status = @user_status WHERE login_id = @login_id
+
+GO
+
+CREATE PROCEDURE sp_insert_user @login_id nvarchar(30), @login_password nvarchar(30), @user_role nvarchar(30), @user_status int
+AS
+INSERT INTO login_account VALUES (@login_id, @login_password, @user_role, @user_status)
+
+GO
